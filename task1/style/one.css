@@ -1,0 +1,45 @@
+/*阿弗伦斯*/
+
+body{
+	background:#fff;
+}
+
+.main{
+	width:800px;
+	height:450px;
+	border:1px solid #fff;
+	margin:0 auto;
+	margin-top:100px;
+	margin-bottom:100px;
+	position:relative;
+}
+#content{
+	width:700px;
+	height:350px;
+	background:#cdcdcd;
+	margin-top:50px;
+	margin-left:50px;
+}
+.first_round{
+	width:100px;
+	height:100px;
+	background:#ffcd00;
+	position:absolute;
+	top:0;
+	border-radius:50%;
+	box-sizing:border-box;
+	border-top:50px solid #fff;
+	border-left:50px solid #fff;
+}
+.second_round{
+	width:100px;
+	height:100px;
+	background:#ffcd00;
+	position:absolute;
+	bottom:0;
+	right:0;
+	border-radius:50%;
+	box-sizing:border-box;
+	border-bottom:50px solid #fff;
+	border-right:50px solid #fff;
+}
